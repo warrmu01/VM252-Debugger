@@ -1,0 +1,30 @@
+VM252 DEBUGGER - PROJECT SPECIFICATIONS	
+	
+*   h = Help	
+*	aa IV = Alter contents of accumulator to IV
+*   ap MA = Alter contents of program counter to MA
+*   amb MA HB = Alter contents of the byte at MA to unsigned hex value HB
+    amd MA SD = Alter contents of the two-byte pair at MA to signed integer value SD
+    amdx MA HD = Alter contents of the two-byte pair at MA to unsigned hex value HD
+    ba MA = Set a breakpoint at address MA
+**  bl L = Set a breakpoint at source-line L
+    cb = Clear all breakpoints
+    h = Print this help message
+*   mb = Display all of machine memory as bytes in hex
+    md = Display all of machine memory as 2-byte data in hex
+**  mi = Display all of machine memory as instructions, data, and labels
+*   n = Execute next machine instruction
+*   ob = Display the portion of machine memory holding object code as bytes in hex
+    od = Display the portion of machine memory holding object code as 2-byte data in hex
+**  oi = Display the portion of machine memory holding object code as instructions, data, and labels
+*   q = Quit
+*   r = Run machine until error occurs or stop instruction is executed
+*   s = Display machine state (accumulator, program counter, etc.)
+    t = Toggle instruction tracing
+    z = Reinitialize program counter to zero
+
+*Minimum requirements for the project to be graded
+** "especially desirable" functions of the GUI program 
+
+
+

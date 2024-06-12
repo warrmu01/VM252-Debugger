@@ -1,0 +1,5 @@
+java -cp VM252.jar VM252asm assemblyLanguageProgramTextFileName
+
+-- java -cp VM252.jar VM252asm foo.vm252al
+
+java -cp VM252.jar VM252dbg objectCodeFileName
